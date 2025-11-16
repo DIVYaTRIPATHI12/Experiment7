@@ -17,11 +17,6 @@ let currentGenre = 'All';
 
 function displayMovies(movieArray) {
     movieList.innerHTML = ''; 
-    
-    if (movieArray.length === 0) {
-        movieList.innerHTML = '<p style="color: #ccc; grid-column: 1 / -1; text-align: center; padding: 20px;">No movies found matching your criteria.</p>';
-        return;
-    }
 
     movieArray.forEach(movie => {
         const movieCard = document.createElement('div');
@@ -47,21 +42,14 @@ function filterMovies() {
 }
 
 // --- Initialization and Event Listeners ---
-
-// 1. Initial display
 displayMovies(movies);
 
-// 2. Search input listener
 searchInput.addEventListener('input', filterMovies);
-
-// 3. Genre tag listener
 tags.forEach(tag => {
     tag.addEventListener('click', () => {
-        // Update active class styling
+     
         tags.forEach(t => t.classList.remove('active'));
         tag.classList.add('active');
-        
-        // Update genre and filter
         currentGenre = tag.getAttribute('data-genre'); 
         filterMovies();
     });
