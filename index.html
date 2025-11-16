@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Filter Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movies</h1>
+        <input type="text" id="searchInput" placeholder="Search movies...">
+    </header>
+
+    <div class="category-buttons">
+        <button class="btn">Bollywood Movies</button>
+        <button class="btn">Dual Audio Content</button>
+        <button class="btn">Hollywood Movies</button>
+        <button class="btn">South Indian Dubbed</button>
+        <button class="btn">Web series</button>
+    </div>
+
+    <div class="tags">
+        <span class="tag active" data-genre="All">All</span>
+        <span class="tag" data-genre="Action">Action</span>
+        <span class="tag" data-genre="Adventure">Adventure</span>
+        <span class="tag" data-genre="Drama">Drama</span>
+        <span class="tag" data-genre="Comedy">Comedy</span>
+        <span class="tag" data-genre="Fantasy">Fantasy</span>
+        <span class="tag" data-genre="Thriller">Thriller</span>
+        <span class="tag" data-genre="Romance">Romance</span>
+        <span class="tag" data-genre="Horror">Horror</span>
+    </div>
+
+    <div id="movieList" class="movie-list">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
