@@ -1,12 +1,12 @@
 const movies = [
-    { title: "Esha Murder Karmphal", genre: "Action", image: 'image-1.jpg' },
-    { title: "Top Gear", genre: "Comedy", image: 'image-2.jpg' },
-    { title: "Devils Double Next Level", genre: "Drama", image: 'image-3.avif' },
-    { title: "X-Men 9 Apocalypse", genre: "Adventure", image: 'image-4.jpeg' },
-    { title: "Dragon Curse The Hidden Treasure", genre: "Romance", image: 'image-5.jpg' },
-    { title: "Mahavatar Narsimha", genre: "Thriller", image: 'image-6.jpeg' },
-    { title: "Kalki", genre: "Fantasy", image: "image-7.jpeg" },
-    { title: "Tumbbad", genre: "Horror", image: "image-8.webp" }
+    { title: "Esha Murder Karmphal", genre: "Action", image: "image-1.jpg" },
+    { title: "Top Gear", genre: "Comedy", image:"image-2.jpg" },
+    { title: "Devils Double Next Level", genre: "Drama", image: "image-3.avif" },
+    { title: "X-Men 9 Apocalypse", genre: "Adventure", image:"image-4.jpeg" },
+    { title: "Dragon Curse The Hidden Treasure", genre: "Romance", image:"image-5.jpg" },
+    { title: "Mahavatar Narsimha", genre: "Thriller", image:'image-6.jpeg' },
+    { title: "Kalki", genre: "Fantasy", image:"image-7.jpeg" },
+    { title: "Tumbbad", genre: "Horror", image:"image-8.jpeg" }
 ];
 
 const movieList = document.getElementById('movieList');
