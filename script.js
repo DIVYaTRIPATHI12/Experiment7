@@ -6,7 +6,7 @@ const movies = [
     { title: "Dragon Curse The Hidden Treasure", genre: "Romance", image:"image-5.jpg" },
     { title: "Mahavatar Narsimha", genre: "Thriller", image:'image-6.jpeg' },
     { title: "Kalki", genre: "Fantasy", image:"image-7.jpeg" },
-    { title: "Tumbbad", genre: "Horror", image:"image-8.jpeg" }
+    { title: "Tumbbad", genre: "Horror", image:"image-8.jpg" }
 ];
 
 const movieList = document.getElementById('movieList');
